@@ -1,0 +1,499 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="theme-color" content="#0f3426"><title>English для крупье</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600&display=swap"><style>
+:root{--bg:#e8efe7;--fg:#14302a;--card:#fffaf0;--ink:#1c1c1c;--brass:#a8801f;--red:#b3342b;--ok:#2d7a4a;--pill:#d3dfd0;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#12372a;--fg:#f2ead3;--brass:#d4a84a;--pill:#1e4f3d}}
+:root[data-theme="dark"]{--bg:#12372a;--fg:#f2ead3;--brass:#d4a84a;--pill:#1e4f3d}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--fg);font:20px/1.4 system-ui,sans-serif}
+main{max-width:640px;margin:0 auto;padding:14px}
+h1{font:700 26px Georgia,serif;margin:4px 0 6px}
+nav,.pills,.row{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0}
+button{font:inherit;border:0;border-radius:14px;padding:12px 16px;background:var(--pill);color:var(--fg);cursor:pointer;min-height:48px}
+button:focus-visible,input:focus-visible{outline:3px solid var(--brass);outline-offset:2px}
+nav button{flex:1}
+.on{background:var(--brass);color:#1c1c1c;font-weight:700}
+.card{background:var(--card);color:var(--ink);border-radius:22px;padding:22px;outline:3px dashed var(--brass);outline-offset:-10px;text-align:center}
+.card button{background:#e6dfcc;color:var(--ink)}
+.en{font:700 30px/1.25 Georgia,serif;margin:12px 0}
+.ru{font-size:24px;margin:12px 0}
+.row{justify-content:center}
+.row button{flex:1;min-width:120px;font-weight:700}
+.opts button{flex:1 1 40%;font:700 34px Georgia,serif;padding:18px}
+.card .good{background:var(--ok);color:#fff}.card .bad{background:var(--red);color:#fff}
+.card .main{background:var(--ink);color:#fff;width:100%;margin-top:10px}
+input{font:700 34px Georgia,serif;width:60%;text-align:center;padding:10px;border-radius:12px;border:2px solid var(--brass)}
+.gap{color:var(--brass);border-bottom:3px solid var(--brass)}
+small{opacity:.85}
+html{background:radial-gradient(ellipse 120% 70% at 50% 0,#1f6048 0,#12392a 55%,#0b261b 100%) fixed #0f3426}
+:root,:root:not([data-theme="light"]),:root[data-theme="dark"]{--bg:#0f3426;--fg:#f2ead3;--brass:#d4a84a;--pill:rgba(255,255,255,.09)}
+body{background:none;font-family:"Inter",system-ui,sans-serif}
+label{font-size:17px;opacity:.9}
+h1{font:700 28px "Playfair Display",Georgia,serif;display:flex;align-items:center;gap:12px;margin:6px 0 10px}
+h1::before{content:"♠";display:grid;place-items:center;flex:none;width:44px;height:44px;border-radius:50%;background:var(--red);color:#fff;font-size:22px;border:3px dashed rgba(255,255,255,.85);box-shadow:0 3px 0 rgba(0,0,0,.35)}
+nav{background:rgba(0,0,0,.25);padding:5px;border-radius:18px;gap:4px}
+nav button{background:transparent;padding:10px 4px;font-size:17px}
+nav .on{background:var(--brass);color:#1c1c1c;box-shadow:0 2px 0 rgba(0,0,0,.35)}
+.pills button{background:var(--pill);font-size:17px;padding:8px 14px;min-height:40px;border-radius:999px}
+.pills .on{background:var(--brass);color:#1c1c1c}
+button:active{transform:translateY(2px)}
+.card{position:relative;padding:40px 24px 36px;background:linear-gradient(180deg,#fffaf0,#f3ead3);border-radius:24px;box-shadow:0 22px 40px rgba(0,0,0,.5)}
+.card::before{content:"♠";position:absolute;top:12px;left:22px;font-size:26px;line-height:1;color:var(--ink)}
+.card::after{content:"♦";position:absolute;bottom:12px;right:22px;font-size:26px;line-height:1;color:var(--red);transform:rotate(180deg)}
+.en{font-family:"Playfair Display",Georgia,serif;font-size:32px}
+.ru{border-top:1px solid #d8c89c;padding-top:14px;font-family:Georgia,serif;font-style:italic;color:#4a3c14}
+.card button{background:#ece3cb;box-shadow:0 3px 0 #cdbf9a}
+.card button.on{background:var(--brass);color:#1c1c1c}
+.card .main{background:#14302a;color:#f2ead3;box-shadow:0 4px 0 #0a1c17}
+.card .good,.card .bad{border:3px dashed rgba(255,255,255,.75);box-shadow:inset 0 0 0 4px rgba(0,0,0,.12),0 4px 0 rgba(0,0,0,.35);border-radius:999px}
+.row.opts{gap:14px}
+.card .opts button{flex:none;width:92px;height:92px;border-radius:50%;padding:0;font-family:"Playfair Display",Georgia,serif;font-size:30px;color:#fff;border:4px dashed rgba(255,255,255,.85);box-shadow:inset 0 0 0 6px rgba(0,0,0,.15),0 5px 0 rgba(0,0,0,.35)}
+.card .opts button:nth-child(1){background:#2b5aa0}.card .opts button:nth-child(2){background:#6a3d8f}.card .opts button:nth-child(3){background:#262626}.card .opts button:nth-child(4){background:#c26a1b}
+.card .opts button.good{background:var(--ok)}.card .opts button.bad{background:var(--red)}
+input{font-family:"Playfair Display",Georgia,serif;background:#fffdf6;color:var(--ink)}
+nav button{font-size:15px;padding:10px 2px}
+nav{display:grid;grid-template-columns:repeat(4,1fr)}
+nav button{font-size:14px;line-height:1.2}
+.ck{padding:2px 3px;border-bottom:2px dashed var(--brass);border-radius:4px;cursor:pointer}
+.ck.sel{background:var(--brass);color:#1c1c1c}
+.bar{display:flex;gap:8px;margin:10px 0 6px}
+.bar button{flex:1;font-size:16px;padding:8px 6px;min-height:44px}
+.prog{height:10px;border-radius:6px;background:rgba(0,0,0,.3);overflow:hidden;margin-bottom:12px}
+.prog i{display:block;height:100%;width:0;background:var(--brass);transition:width .3s}
+html{-webkit-text-size-adjust:100%}
+body{-webkit-tap-highlight-color:transparent}
+button,.ck{touch-action:manipulation;-webkit-user-select:none;user-select:none}
+.ck{padding:4px 3px}
+.row.opts{display:grid;grid-template-columns:1fr 1fr;justify-items:center}
+.card .opts button{width:min(120px,36vw);height:min(120px,36vw);font-size:34px}
+.home{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:12px}
+.home button{display:flex;flex-direction:column;align-items:center;gap:4px;padding:16px 8px;min-height:112px;border-radius:20px;font-weight:700}
+.home button span{font-size:36px;line-height:1.1}
+.home button small{font-weight:400;opacity:.85}
+@media(max-width:640px){nav{display:none}main{padding:10px}.card{padding:34px 16px 30px}.en{font-size:26px}h1{font-size:22px}.pills{flex-wrap:nowrap;overflow-x:auto;padding-bottom:4px}.pills button{flex:none;white-space:nowrap}}
+</style></head><body><main>
+<h1>English для крупье</h1>
+
+<nav><button data-t="c" onclick="show('c')">🃏 Фразы</button><button data-t="e" onclick="show('e')">👂 Слух</button><button data-t="m" onclick="show('m')">🧮 Счёт</button><button data-t="p" onclick="show('p')">🧩 Строим</button><button data-t="g" onclick="show('g')">📖 Правила</button><button data-t="q" onclick="show('q')">🧱 Квиз</button><button data-t="w" onclick="show('w')">📚 Слова</button><button data-t="r" onclick="show('r')">📰 Чтение</button></nav>
+<div class=bar><button id=hm onclick="show('h')" style="flex:none;width:56px">🏠</button><button id=spd onclick=cs()></button><button id=goal onclick=sg()></button></div><div class=prog><i id=pf></i></div><div id="v"><p style="text-align:center;opacity:.8">⏳ Загрузка… Если надпись не пропадает, вы открыли файл, а не ссылку: в файле скрипты не работают. Откройте ссылку на страницу в Safari.</p></div><p style="text-align:center;opacity:.6;font-size:13px">версия 16</p></main><script>window.onerror=function(m,u,l){var d=document.getElementById('v'),e=document.createElement('div');e.textContent='⚠️ '+m+' (строка '+l+')';e.style.cssText='background:#fff;color:#b00;padding:12px;border-radius:12px;font:14px monospace;margin:8px 0';d.parentNode.insertBefore(e,d)}</script><script>
+const $=s=>document.querySelector(s),r=k=>Math.random()*k|0,sw=a=>a.sort(()=>Math.random()-.5);
+let S={box:{},st:{},sp:1,goal:40,day:'',n:0,last:'',streak:0};try{S=Object.assign(S,JSON.parse(localStorage.getItem("ce")||"{}"))}catch(e){}
+const save=()=>{try{localStorage.setItem("ce",JSON.stringify(S))}catch(e){}};
+const bump=(k,ok)=>{const a=S.st[k]||(S.st[k]=[0,0]);a[1]++;if(ok)a[0]++;tick()},st=k=>(S.st[k]||[0,0]).join(" из ");
+let voices=[];const lv=()=>{voices=speechSynthesis.getVoices()};try{lv();speechSynthesis.onvoiceschanged=lv}catch(e){}
+function say(t){try{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(S.sp==0?t.replace(/ /g,', '):t),v=voices.find(v=>v.lang=='en-US'&&v.localService)||voices.find(v=>/^en/.test(v.lang)&&v.localService)||voices.find(v=>v.lang=='en-US')||voices.find(v=>/^en/.test(v.lang));if(v)u.voice=v;u.lang="en-US";u.rate=SP[S.sp][1];speechSynthesis.speak(u)}catch(e){}}
+const O="zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen".split(" "),T="  twenty thirty forty fifty sixty seventy eighty ninety".split(" ");
+function w(n){if(n<20)return O[n];if(n<100)return T[n/10|0]+(n%10?"-"+O[n%10]:"");if(n<1000)return O[n/100|0]+" hundred"+(n%100?" "+w(n%100):"");return w(n/1000|0)+" thousand"+(n%1000?" "+w(n%1000):"")}
+const D={"Стол":`Place your bets, please.|Делайте ваши ставки.
+No more bets.|Ставок больше нет.
+Good luck.|Удачи.
+The minimum bet is ten.|Минимальная ставка — десять.
+The maximum bet is five hundred.|Максимальная ставка — пятьсот.
+Please place your bet in the circle.|Поставьте ставку в круг, пожалуйста.
+Please don’t touch the chips.|Пожалуйста, не трогайте фишки.
+Please wait for the next round.|Подождите следующего раунда.
+Sorry, no phones at the table.|Извините, телефоны за столом нельзя.`,
+"Фишки":`How much would you like to change?|Сколько хотите поменять?
+How many chips would you like?|Сколько фишек вам нужно?
+Here are your chips.|Вот ваши фишки.
+Would you like to color up?|Хотите поменять на фишки покрупнее?
+Your winnings, sir.|Ваш выигрыш, сэр.
+Your change, ma’am.|Ваша сдача, мадам.
+The cashier is over there.|Касса вон там.`,
+"Рулетка":`Red or black?|Красное или чёрное?
+Odd or even?|Нечёт или чёт?
+No more bets. The ball is spinning.|Ставок больше нет. Шарик крутится.
+The winning number is seventeen, black.|Выиграло число семнадцать, чёрное.
+Zero, green.|Ноль, зелёное.
+A straight-up bet pays thirty-five to one.|Ставка на одно число платит тридцать пять к одному.`,
+"Блэкджек":`Hit or stand?|Ещё карту или хватит?
+Would you like another card?|Хотите ещё карту?
+You have eighteen.|У вас восемнадцать.
+The dealer has twenty.|У дилера двадцать.
+Do you want to split?|Хотите разделить пару?
+Do you want to double down?|Хотите удвоить?
+Would you like insurance?|Хотите страховку?
+Blackjack pays three to two.|Блэкджек платит три к двум.
+Bust.|Перебор.
+Push.|Ничья.`,
+"Покер":`Check, bet, or fold?|Пропустить, ставить или сбросить?
+Do you want to raise?|Хотите повысить ставку?
+Call or fold?|Уравнять или сбросить?
+All in.|Ва-банк.
+Show your cards, please.|Покажите карты, пожалуйста.`,
+"Гость говорит":`Can I get change, please?|Можно разменять, пожалуйста?
+What is the minimum bet?|Какая минимальная ставка?
+Can I sit here?|Можно здесь сесть?
+I want to cash out.|Хочу обналичить фишки.
+Can I have a drink?|Можно мне напиток?
+Where is the restroom?|Где туалет?
+Sorry, could you say that again?|Простите, повторите ещё раз?
+Could you speak slowly, please?|Говорите медленнее, пожалуйста.
+One moment, please. I’ll call the manager.|Минутку. Я позову менеджера.
+Welcome. Please take a seat.|Добро пожаловать. Присаживайтесь.
+Thank you. Have a nice evening.|Спасибо. Хорошего вечера.`,
+"Общение":`How are you today?|Как ваши дела сегодня?
+I’m fine, thank you. And you?|Хорошо, спасибо. А у вас?
+How was your day?|Как прошёл ваш день?
+My day was good, thank you.|Мой день прошёл хорошо, спасибо.
+It was a long day.|Был долгий день.
+Nice to meet you.|Приятно познакомиться.
+What’s your name?|Как вас зовут?
+Where are you from?|Откуда вы?
+Is this your first time here?|Вы здесь впервые?
+How long are you staying here?|Как долго вы здесь пробудете?
+Are you enjoying your stay?|Вам нравится отдых здесь?
+The weather is great today.|Сегодня отличная погода.
+I’m sorry, my English is not perfect.|Простите, мой английский не идеален.
+I’m still learning English.|Я ещё учу английский.
+Do you want some coffee?|Хотите кофе?
+Let’s take a break.|Давайте сделаем перерыв.
+See you tomorrow.|До завтра.`};
+const X={'Стол':`The table is full.|За столом нет мест.
+The table is closed.|Стол закрыт.
+Please stay at your seat.|Оставайтесь на своём месте, пожалуйста.
+May I see your ID, please?|Можно ваш документ, пожалуйста?`,
+'Фишки':`How much would you like to buy in?|На какую сумму хотите купить фишек?
+Please count your chips.|Пересчитайте ваши фишки, пожалуйста.
+Please take your chips.|Заберите ваши фишки, пожалуйста.
+Here is your receipt.|Вот ваш чек.`,
+'Рулетка':`Last bets, please.|Последние ставки, пожалуйста.
+The wheel is spinning.|Колесо крутится.
+Please place your chips on the number.|Поставьте фишки на число, пожалуйста.`,
+'Блэкджек':`The dealer must hit on sixteen.|Дилер берёт карту при шестнадцати.
+The dealer stands on seventeen.|Дилер останавливается на семнадцати.
+You win.|Вы выиграли.
+You lose.|Вы проиграли.`,
+'Покер':`It’s your turn.|Ваш ход.
+The blinds are fifty and one hundred.|Блайнды — пятьдесят и сто.
+The pot is five hundred.|В банке пятьсот.`,
+'Гость говорит':`Is there a free seat?|Есть свободное место?
+How do I play this game?|Как играть в эту игру?
+What are the rules?|Какие правила?
+Where is the cashier?|Где касса?
+Can I take a photo?|Можно сфотографировать?
+I think there is a mistake.|Кажется, это ошибка.
+Can you call the manager?|Можете позвать менеджера?
+How much did I win?|Сколько я выиграл?`,
+'Общение':`Good evening, welcome.|Добрый вечер, добро пожаловать.
+How is your evening going?|Как проходит ваш вечер?
+Are you having a good night?|У вас хороший вечер?
+Are you having fun?|Вам весело?
+Nice to see you again.|Рада снова вас видеть.
+Welcome back.|С возвращением.
+How was your trip?|Как прошла ваша поездка?
+Where are you staying?|Где вы остановились?
+Do you like the city?|Вам нравится город?
+Is everything OK?|Всё в порядке?
+Can I help you with anything?|Могу я вам чем-нибудь помочь?
+I’m happy to help.|Рада помочь.
+Take your time.|Не торопитесь.
+No problem.|Без проблем.
+You’re welcome.|Пожалуйста (в ответ на «спасибо»).
+Thank you very much.|Большое спасибо.
+Sorry, I didn’t catch that.|Простите, я не расслышала.
+Just a moment, please.|Одну минуту, пожалуйста.
+Excuse me.|Извините.
+Sorry about that.|Прошу прощения.
+No worries.|Ничего страшного.
+It’s very busy tonight.|Сегодня очень много народу.
+It’s quiet tonight.|Сегодня тихо.
+Good luck tonight!|Удачи вам сегодня!
+How are you feeling today?|Как вы себя чувствуете сегодня?
+I’m a bit tired today.|Я сегодня немного устала.
+Do you want to have lunch?|Хотите пообедать?
+What time do you finish?|Во сколько вы заканчиваете?
+Have a good weekend.|Хороших выходных.
+I don’t know, but I’ll ask.|Не знаю, но я спрошу.`};
+for(const k in X)D[k]+=String.fromCharCode(10)+X[k];
+const C=Object.entries(D).flatMap(([cat,t])=>t.split("\n").map(l=>{const[e,u]=l.split("|");return{cat,en:e,ru:u}})),CATS=["Все",...Object.keys(D)];
+let cat="Все",cur=null,shown=0,tab="c";
+let Q=[];
+function setCat(i){cat=CATS[i];Q=[];next()}
+function next(){const L=C.filter(c=>cat=="Все"||c.cat==cat);Q=Q.filter(c=>L.includes(c));if(!Q.length){const a=L.filter(c=>(S.box[c.en]||0)<3),b=sw(L.filter(c=>(S.box[c.en]||0)>=3));Q=sw(a.length?a.concat(b.slice(0,Math.ceil(a.length/4))):b);if(Q.length>1&&Q[0]==cur)Q.push(Q.shift())}cur=Q.shift();shown=0;drawC();say(cur.en)}
+function ans(k){S.box[cur.en]=k?Math.min(3,(S.box[cur.en]||0)+1):0;if(!k&&Q.length)Q.splice(Math.min(4,Q.length),0,cur);bump("c",k);next()}
+function drawC(){$("#v").innerHTML=`<div class=pills>${CATS.map((c,i)=>`<button class="${c==cat?"on":""}" onclick="setCat(${i})">${c}</button>`).join("")}</div><div class=card><div class=en>${cur.en}</div><button onclick="say(cur.en)">🔊 Послушать</button>${shown?`<div class=ru>${cur.ru}</div><div class=row><button class=bad onclick="ans(0)">Ещё раз</button><button class=good onclick="ans(1)">Знаю</button></div>`:`<button class=main onclick="shown=1;drawC()">Показать перевод</button>`}</div><p><small>Выучено: ${C.filter(c=>(S.box[c.en]||0)>=3).length} из ${C.length}</small></p>`}
+const LV={a:"13 или 30",t:"30 / 40 / 50",b:"11–99",c:"100–999",d:"Фишки"},TIP="-teen (13, 14…): ударение в конце, звук долгий: thir-TEEN. -ty (30, 40…): ударение в начале, коротко: THIR-ty.";
+let E={l:"a"};
+function qE(){const o=new Set,l=E.l;let n;
+if(l=="a"){const d=3+r(7);n=Math.random()<.5?10+d:d*10;o.add(10+d);o.add(d*10);while(o.size<4){const e=3+r(7);o.add(Math.random()<.5?10+e:e*10)}}
+else if(l=='t'){const d=2+r(8);n=d*10;o.add(n);[n-10,n+10,d+10].forEach(x=>{if(x>12&&x<100)o.add(x)});while(o.size<4)o.add((2+r(8))*10)}else if(l=="d"){const P=[5,10,20,25,50,75,100,150,200,250,500,750,1000];n=P[r(P.length)];o.add(n);while(o.size<4)o.add(P[r(P.length)])}
+else{const lo=l=="b"?11:101,hi=l=="b"?99:999;n=lo+r(hi-lo+1);o.add(n);[l=="b"?n%10*10+(n/10|0):0,n+10,n-10,n+1,n-1].forEach(x=>{if(x>=lo&&x<=hi&&o.size<4&&Math.random()<.8)o.add(x)});while(o.size<4)o.add(lo+r(hi-lo+1))}
+E.n=n;E.o=sw([...o]);E.done=0;E.p=-1;drawE();say(w(n))}
+function ea(i){if(E.done)return;E.done=1;E.p=i;bump("e",E.o[i]==E.n);drawE();say(w(E.n))}
+function drawE(){$("#v").innerHTML=`<div class=pills>${Object.entries(LV).map(([k,v])=>`<button class="${E.l==k?"on":""}" onclick="E.l='${k}';qE()">${v}</button>`).join("")}</div><div class=card><p>Какое число вы услышали?</p><button onclick="say(w(E.n))">🔊 Ещё раз</button><div class="row opts">${E.o.map((x,i)=>`<button onclick="ea(${i})" class="${E.done?(x==E.n?"good":E.p==i?"bad":""):""}">${x}</button>`).join("")}</div>${E.done?`<div class=ru>${E.n} = ${w(E.n)}</div><button class=main onclick="qE()">Дальше</button>`:""}</div>${E.l=="a"?`<p><small>${TIP}</small></p>`:""}<p><small>Верно: ${st("e")}</small></p>`}
+let M={};
+function qM(){const t=r(3);let a,b;M.done=0;M.show=0;
+if(t==0){a=10+r(90);b=10+r(90);M.a=a+b;M.s=`${a} + ${b}`;M.say=`${w(a)} plus ${w(b)}`}
+else if(t==1){a=30+r(70);b=10+r(a-10);M.a=a-b;M.s=`${a} − ${b}`;M.say=`${w(a)} minus ${w(b)}`}
+else{a=[5,10,15,20,25,50][r(6)];b=[2,3,5,11,17,35][r(6)];M.a=a*b;M.s=`Ставка ${a}, выплата ${b} к 1`;M.say=`A bet of ${w(a)} pays ${w(b)} to one. How much?`}
+drawM();say(M.say)}
+function mc(){const v=+$("#ai").value;if(!$("#ai").value)return;M.ok=v==M.a;M.done=1;bump("m",M.ok);drawM();say(w(M.a))}
+function drawM(){$("#v").innerHTML=`<div class=card><p>Слушайте и посчитайте</p><button onclick="say(M.say)">🔊 Ещё раз</button>${M.show||M.done?`<div class=ru>${M.s}</div>`:`<button onclick="M.show=1;drawM()">Показать цифры</button>`}${M.done?`<div class="ru ${M.ok?"":""}">${M.ok?"✔ Верно":"✖ Правильно"}: ${M.a}<br><span class=en>${w(M.a)}</span></div><button class=main onclick="qM()">Дальше</button>`:`<p><input id=ai inputmode=numeric onkeydown="if(event.key=='Enter')mc()"></p><button class=main onclick="mc()">Проверить</button>`}</div><p><small>Верно: ${st("m")}</small></p>`;if($("#ai"))$("#ai").focus()}
+const P=[["Would you like ___?","Хотите ___?","another card|ещё карту;to change money|поменять деньги;a drink|напиток;to split|разделить пару;insurance|страховку","Would you like + что предлагаем? Так вежливо предлагают."],
+["You have ___.","У вас ___.","twenty|двадцать;seventeen|семнадцать;a blackjack|блэкджек;a pair|пару","You have + что у гостя."],
+["The minimum bet is ___.","Минимальная ставка — ___.","ten|десять;twenty-five|двадцать пять;fifty|пятьдесят;one hundred|сто","The … is + число."],
+["Please ___.","Пожалуйста, ___.","take a seat|присаживайтесь;wait a moment|подождите минуту;place your bets|делайте ставки;show your cards|покажите карты","Please + действие. Самая вежливая просьба."],
+["Could you ___, please?","Не могли бы вы ___?","repeat that|повторить;speak slowly|говорить медленнее;wait here|подождать здесь;show your cards|показать карты","Could you + действие, please? Вежливая просьба к гостю."],
+["Are you ___?","Вы ___?","tired|устали;hungry|голодны;enjoying your stay|довольны отдыхом;from Russia|из России","Are you + как себя чувствует или откуда. Для обычного разговора."],
+["Would you like some ___?","Хотите ___?","water|воды;coffee|кофе;tea|чаю;juice|сока","Would you like some + напиток. Для напитков и еды."]];
+let pi=0,si=-1;
+function pp(i,j){pi=i;si=j;drawP();if(j>=0){const o=P[i][2].split(";")[j].split("|")[0];say(P[i][0].replace("___",o))}}
+function drawP(){const p=P[pi],o=p[2].split(";").map(x=>x.split("|")),s=si>=0?o[si]:null,f=(t,k)=>t.replace("___",s?`<b>${s[k]}</b>`:`<span class=gap>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>`);
+$("#v").innerHTML=`<div class=pills>${P.map((x,i)=>`<button class="${i==pi?"on":""}" onclick="pp(${i},-1)">${x[0].replace("___","…")}</button>`).join("")}</div><div class=card><div class=en>${f(p[0],0)}</div><div class=ru>${f(p[1],1)}</div>${s?`<button onclick="pp(${pi},${si})">🔊 Послушать</button>`:""}<div class=row>${o.map((x,j)=>`<button class="${j==si?"on":""}" onclick="pp(${pi},${j})">${x[0]}</button>`).join("")}</div></div><p><small>${p[3]} Нажимайте слова — фраза произносится целиком.</small></p>`}
+const G=[[`Как работает глагол`,[`В английском глагол почти не меняется. Нет окончаний для «я, ты, мы, они»: I work, you work, we work, they work.`,`Только с he / she / it добавляется -s: he works.`,`Порядок простой: кто → что делает → что.`],`I work here.|Я работаю здесь.;She works here.|Она работает здесь.;They work at night.|Они работают ночью.`],
+[`Спряжение`,[`Настоящее: work (he works).`,`Прошедшее: добавь -ed: work → worked. Особые: go → went, give → gave, have → had.`,`Будущее: will + глагол: I will work.`,`Вопрос и «не»: do / does / did + обычный глагол: Do you work? I don’t work. Did you work?`,`Глагол to be: I am, you are, he / she / it is, we / they are.`],`I deal cards.|Я раздаю карты.;She dealt the cards.|Она раздала карты.;I will call the manager.|Я позову менеджера.;Do you want a card?|Хотите карту?;I don’t understand.|Я не понимаю.;He is a guest.|Он гость.`],
+[`Артикли и падежи`,[`Артиклей в русском нет. a / an = какой-то: a card. the = конкретный, уже известный: the card.`,`a перед согласным звуком, an перед гласным: a chip, an ace.`,`Падежей в английском нет. Вместо окончаний — предлоги и порядок слов: to the guest (гостю), of the table (стола), with chips (с фишками).`,`Исключение: ’s показывает, чьё: the guest’s chips.`],`Take a card.|Возьмите карту.;Take the card.|Возьмите именно ту карту.;This is an ace.|Это туз.;The guest’s chips.|Фишки гостя.;Chips for the guest.|Фишки для гостя.`],
+[`Местоимения`,[`Кто делает: I, you, he, she, it, we, they. «Ты» и «вы» одинаково: you.`,`Кого / кому: me, you, him, her, it, us, them. После глагола — только эта форма: I see him.`,`Чей: my, your, his, her, its, our, their: your chips.`],`I see you.|Я вижу вас.;Here are your chips.|Вот ваши фишки.;This is for him.|Это для него.;We are open.|Мы открыты.;Their table is there.|Их стол там.`],
+[`Порядок слов`,[`В русском слова можно переставлять, в английском порядок почти всегда один: КТО → ДЕЛАЕТ → ЧТО → КОМУ / ГДЕ → КОГДА.`,`I give chips to the guest.`,`Вопрос: do / does + кто + глагол: Do you want a card? С to be: Is the table open?`,`Отрицание: don’t / doesn’t + глагол: I don’t know.`,`Просьба: сразу глагол: Place your bets.`],`I give chips to the guest.|Я даю фишки гостю.;Do you want a card?|Хотите карту?;The table is open.|Стол открыт.;Place your bets.|Делайте ставки.`]];
+const W=[[`I give chips to the guest.`,`Я даю фишки гостю.`],[`The dealer has twenty.`,`У дилера двадцать.`],[`Do you want another card?`,`Хотите ещё карту?`],[`Is the table open?`,`Стол открыт?`],[`Please place your bets.`,`Пожалуйста, делайте ставки.`],[`The minimum bet is ten.`,`Минимальная ставка — десять.`],[`I don’t understand you.`,`Я вас не понимаю.`],[`Could you speak slowly, please?`,`Не могли бы вы говорить медленнее?`],[`Your winnings are on the table.`,`Ваш выигрыш на столе.`],[`How was your day?`,`Как прошёл ваш день?`],[`She works here every night.`,`Она работает здесь каждую ночь.`]];
+let gi=0,K={},Wq=[];
+function gp(i){gi=i;drawG()}
+function sayG(i,j){say(G[i][2].split(';')[j].split('|')[0])}
+function drawG(){const g=G[gi],ex=g[2].split(';').map(x=>x.split('|'));$('#v').innerHTML=`<div class=pills>${G.map((x,i)=>`<button class='${i==gi?'on':''}' onclick=gp(${i})>${x[0]}</button>`).join('')}</div><div class=card style='text-align:left'>${g[1].map(l=>`<p style='margin:.6em 0'>${l}</p>`).join('')}${ex.map((x,j)=>`<button style='width:100%;text-align:left;margin-top:8px' onclick=sayG(${gi},${j})>🔊 <b>${x[0]}</b><br><small>${x[1]}</small></button>`).join('')}${gi==4?`<button class=main onclick=qW()>Собрать фразу из слов</button>`:''}</div>`}
+function qW(){const s=(Wq.length?Wq:Wq=sw([...W])).pop();K={s,pool:sw(s[0].split(' ').map((w,i)=>({w,i}))),pk:[],done:0};drawW()}
+function wt(i){K.pk.push(K.pool.splice(i,1)[0]);if(!K.pool.length){K.ok=K.pk.map(x=>x.w).join(' ')==K.s[0];K.done=1;bump('w',K.ok);say(K.s[0])}drawW()}
+function wu(i){if(K.done)return;K.pool.push(K.pk.splice(i,1)[0]);drawW()}
+function drawW(){$('#v').innerHTML=`<div class=card><p>Соберите по-английски:</p><div class=ru style='border:0'>${K.s[1]}</div><div class=row style='min-height:60px;border-bottom:2px dashed var(--brass)'>${K.pk.map((x,i)=>`<button style='flex:none;min-width:0' onclick=wu(${i})>${x.w}</button>`).join('')}</div><div class=row>${K.pool.map((x,i)=>`<button class=on style='flex:none;min-width:0' onclick=wt(${i})>${x.w}</button>`).join('')}</div>${K.done?`<div class=ru style='border:0'>${K.ok?'✔ Верно':'✖ Правильно:'}<br><span class=en>${K.s[0]}</span></div><button class=main onclick=qW()>Дальше</button>`:''}<button style='margin-top:10px' onclick=show('g')>← К правилам</button></div><p><small>Верно: ${st('w')}</small></p>`}
+const SP=[['🐢 Медленно',.5],['🙂 Обычно',.9],['🐇 Быстро',1.25]],td=(o=0)=>new Date(Date.now()-o*864e5).toLocaleDateString('en-CA');
+function tick(){const d=td();if(S.day!=d){S.day=d;S.n=0}S.n++;if(S.n>=S.goal&&S.last!=d){S.streak=S.last==td(1)?S.streak+1:1;S.last=d}save();upd()}
+function upd(){const d=td(),n=S.day==d?S.n:0,k=S.last==d||S.last==td(1)?S.streak:0;$('#spd').textContent=SP[S.sp][0];$('#goal').textContent=(n>=S.goal?'✅ Цель выполнена · '+n:'🎯 '+n+' из '+S.goal)+(k?' · 🔥'+k:'');$('#pf').style.width=Math.min(100,n/S.goal*100)+'%'}
+function cs(){S.sp=(S.sp+1)%3;save();upd();say('Thirty, forty, fifty')}
+function sg(){const L=[20,40,60,100];S.goal=L[(L.indexOf(S.goal)+1)%4];save();upd()}
+const B=C.filter(c=>{const n=c.en.split(' ').length;return n>=3&&n<=9}),pk=a=>a[r(a.length)];
+const nm=s=>{s=s.toLowerCase().replace(/’/g,`'`).replace(/[.,!?—-]/g,' ').replace(/\s+/g,' ').trim();[['i am',`i'm`],['do not',`don't`],['i will',`i'll`],['cannot',`can't`]].forEach(p=>s=s.split(p[0]).join(p[1]));return s};
+function lev(a,b){const d=[...Array(b.length+1).keys()];for(let i=1;i<=a.length;i++){let p=d[0];d[0]=i;for(let j=1;j<=b.length;j++){const t=d[j];d[j]=Math.min(d[j]+1,d[j-1]+1,p+(a[i-1]==b[j-1]?0:1));p=t}}return d[b.length]}
+let Z={},Zq=[];function zp(){if(!Zq.length)Zq=sw([...B]);return Zq.pop()}
+function zq(m){Z={m:m||Z.m,c:zp(),done:0};if(Z.m=='t'){const ws=Z.c.en.split(' '),ex=pk(B).en.split(' ').filter(x=>!ws.includes(x)).slice(0,2);Z.pool=sw([...ws,...ex].map(w=>({w})));Z.pk=[]}if(Z.m=='h'){const o=new Set([Z.c.ru]);while(o.size<3)o.add(pk(B).ru);Z.o=sw([...o]);say(Z.c.en)}drawZ()}
+function zt(i){Z.pk.push(Z.pool.splice(i,1)[0]);drawZ()}
+function zu(i){if(!Z.done){Z.pool.push(Z.pk.splice(i,1)[0]);drawZ()}}
+function zk(e){if(e.key=='Enter')zc()}
+function zf(ok){Z.done=1;Z.ok=ok;bump('q',ok);drawZ();say(Z.c.en)}
+function zc(){if(Z.m=='t')return zf(nm(Z.pk.map(x=>x.w).join(' '))==nm(Z.c.en));const v=nm($('#zi').value),a=nm(Z.c.en);if(!v)return;zf(v==a||(a.length>7&&lev(v,a)<2))}
+function zh(i){if(Z.done)return;Z.p=i;zf(Z.o[i]==Z.c.ru)}
+function drawZ(){const c=Z.c;let b='';
+if(Z.m=='t')b=`<div class=ru style='border:0'>${c.ru}</div><div class=row style='min-height:60px;border-bottom:2px dashed var(--brass)'>${Z.pk.map((x,i)=>`<button style='flex:none;min-width:0' onclick=zu(${i})>${x.w}</button>`).join('')}</div><div class=row>${Z.pool.map((x,i)=>`<button class=on style='flex:none;min-width:0' onclick=zt(${i})>${x.w}</button>`).join('')}</div>${Z.done?'':`<button class=main onclick=zc()>Проверить</button>`}`;
+if(Z.m=='y')b=`<div class=ru style='border:0'>${c.ru}</div>${Z.done?'':`<p><input id=zi onkeydown=zk(event) style='width:100%;font-size:24px' autocapitalize=off autocomplete=off></p><button class=main onclick=zc()>Проверить</button><button style='margin-top:8px' onclick=zf(0)>Не знаю</button>`}`;
+if(Z.m=='h')b=`<p>Что сказал гость?</p><button onclick=say(Z.c.en)>🔊 Послушать</button>${Z.o.map((x,i)=>`<button style='width:100%;margin-top:8px' class='${Z.done?(x==c.ru?'good':Z.p==i?'bad':''):''}' onclick=zh(${i})>${x}</button>`).join('')}`;
+$('#v').innerHTML=`<div class=pills>${[['t','🧱 Кубики'],['y','✍️ Перевод'],['h','👂 Понимаю']].map(x=>`<button class='${Z.m==x[0]?'on':''}' onclick=zq('${x[0]}')>${x[1]}</button>`).join('')}</div><div class=card>${b}${Z.done?`<div class=ru style='border:0'>${Z.ok?'✔ Верно':'✖ Правильно:'}<br><span class=en>${c.en}</span></div><button class=main onclick=zq()>Дальше</button>`:''}</div><p><small>Верно: ${st('q')}</small></p>`;if($('#zi'))$('#zi').focus()}
+const WL=`bet|ставка
+chip|фишка
+card|карта
+dealer|дилер,крупье
+table|стол
+wheel|колесо
+ball|шарик,мяч
+win|выиграть,выигрыш
+lose|проиграть
+winner|победитель,выигравший
+winnings|выигрыш
+cash|наличные,наличка
+change|сдача,размен,менять
+cashier|кассир,касса
+manager|менеджер,управляющий
+guest|гость
+player|игрок
+seat|место
+game|игра
+round|раунд,круг
+hand|раздача,рука
+deck|колода
+shuffle|тасовать,перетасовать
+deal|раздавать
+split|разделить,сплит
+raise|повысить,повышать
+fold|сбросить,пас
+call|уравнять,позвать
+check|пропустить,чек
+bust|перебор
+push|ничья
+odd|нечётный,нечет
+even|чётный,чет
+red|красный
+black|чёрный
+green|зелёный
+number|число,номер
+zero|ноль
+minimum|минимум,минимальный
+maximum|максимум,максимальный
+limit|лимит,предел
+jackpot|джекпот
+luck|удача
+rules|правила
+tip|чаевые
+receipt|чек,квитанция
+ID|документ,удостоверение
+drink|напиток,пить
+payout|выплата
+pay|платить,оплатить
+dice|кости,кубики
+tournament|турнир
+security|охрана,безопасность
+welcome|добро пожаловать,приветствовать
+please|пожалуйста
+thank you|спасибо,благодарю
+sorry|извините,простите,прости
+excuse me|извините,простите
+help|помощь,помогать,помочь
+moment|момент,минутка
+minute|минута
+hour|час
+today|сегодня
+tonight|сегодня вечером,сегодня ночью
+tomorrow|завтра
+morning|утро
+evening|вечер
+night|ночь
+weekend|выходные
+friend|друг,подруга
+coffee|кофе
+tea|чай
+water|вода
+juice|сок
+lunch|обед
+dinner|ужин
+hungry|голодный
+tired|усталый,уставший
+busy|занятой,оживлённый,многолюдный
+quiet|тихий,тихо
+weather|погода
+city|город
+trip|поездка,путешествие
+hotel|отель,гостиница
+money|деньги
+price|цена
+cheap|дешёвый
+expensive|дорогой
+open|открытый,открыто,открыть
+closed|закрытый,закрыто
+free|свободный,бесплатный
+full|полный
+left|левый,налево
+right|правый,правильный,направо
+here|здесь,тут
+there|там
+again|снова,опять,ещё раз
+slowly|медленно
+quickly|быстро
+understand|понимать,понять
+repeat|повторить,повторять
+speak|говорить
+ask|спрашивать,спросить
+answer|ответ,отвечать
+question|вопрос
+problem|проблема
+mistake|ошибка
+careful|осторожный,осторожно
+ready|готовый,готов
+sure|уверен,конечно
+maybe|может быть,возможно
+always|всегда
+never|никогда
+sometimes|иногда
+early|рано
+late|поздно
+big|большой
+small|маленький
+new|новый
+old|старый`.split('\n').map(l=>{const[e,u]=l.split('|'),a=u.split(',');return{en:e,ru:a[0],al:a}});
+S.wb=S.wb||{};
+let Vq=[],V={m:'a'};
+const nr=s=>s.toLowerCase().replace(/ё/g,'е').replace(/[^а-яa-z0-9 ]/g,' ').replace(/\s+/g,' ').trim();
+function ok1(a,b,f){a=f(a);b=f(b);return a==b||(a.length>4&&lev(a,b)<2)}
+function vn(m){if(!Vq.length){const a=WL.filter(x=>(S.wb[x.en]||0)<3),b=sw(WL.filter(x=>(S.wb[x.en]||0)>=3));Vq=sw(a.length?a.concat(b.slice(0,Math.ceil(a.length/4))):b);if(Vq.length>1&&Vq[0]==V.w)Vq.push(Vq.shift())}V={m:m||V.m,w:Vq.shift(),done:0,sh:0};drawV();if(V.m!='b')say(V.w.en)}
+function vc(){if(V.done)return;const v=$('#vi').value,w=V.w;if(!v.trim())return;vf(V.m=='a'?w.al.some(x=>ok1(x,v,nr)):V.m=='b'?WL.some(x=>x.al.includes(w.ru)&&ok1(x.en,v,nm)):ok1(w.en,v,nm))}
+function vf(ok){const b=S.wb[V.w.en]||0;S.wb[V.w.en]=ok?Math.min(3,b+1):0;if(!ok&&Vq.length)Vq.splice(Math.min(4,Vq.length),0,V.w);bump('v',ok);if(V.m=='d')return vn();V.done=1;V.ok=ok;drawV();say(V.w.en)}
+function vk(e){if(e.key=='Enter')vc()}
+function drawV(){const w=V.w,m=V.m,nl=WL.filter(x=>(S.wb[x.en]||0)>=3).length;let b='';
+if(m=='d')b=`<div class=en>${w.en}</div><button onclick=say(V.w.en)>🔊 Послушать</button>${V.sh?`<div class=ru>${w.ru}</div><div class=row><button class=bad onclick=vf(0)>Ещё раз</button><button class=good onclick=vf(1)>Знаю</button></div>`:`<button class=main onclick='V.sh=1;drawV()'>Показать перевод</button>`}`;
+else{b=(m=='a'?`<div class=en>${w.en}</div><button onclick=say(V.w.en)>🔊</button>`:m=='b'?`<div class=en>${w.ru}</div>`:`<p>Напишите слово, которое слышите</p><button onclick=say(V.w.en)>🔊 Ещё раз</button>`)+(V.done?`<div class=ru style='border:0'>${V.ok?'✔ Верно':'✖ Правильно:'}<br><span class=en>${w.en} = ${w.al.join(', ')}</span></div><button class=main onclick=vn()>Дальше</button>`:`<p><input id=vi onkeydown=vk(event) style='width:100%;font-size:24px' autocapitalize=off autocomplete=off></p><button class=main onclick=vc()>Проверить</button><button style='margin-top:8px' onclick=vf(0)>Не знаю</button>`)}
+$('#v').innerHTML=`<div class=pills>${[['a','EN → RU'],['b','RU → EN'],['c','👂 На слух'],['d','📇 Учить']].map(x=>`<button class='${m==x[0]?'on':''}' onclick=vn('${x[0]}')>${x[1]}</button>`).join('')}</div><div class=card>${b}</div><p><small>Выучено слов: ${nl} из ${WL.length}</small></p>`;if($('#vi'))$('#vi').focus()}
+const RT=[['🎲 Рулетка',`Dealer:|Дилер:~Good evening,|Добрый вечер,~sir.|сэр.~Welcome|Добро пожаловать~to the roulette table.|к столу рулетки.
+Guest:|Гость:~Thank you.|Спасибо.~What is|Какая~the minimum bet?|минимальная ставка?
+Dealer:|Дилер:~The minimum bet|Минимальная ставка~is ten.|— десять.~Please place|Пожалуйста, делайте~your bets.|ваши ставки.
+Guest:|Гость:~I would like|Я хотел бы~to change|поменять~some money,|немного денег,~please.|пожалуйста.
+Dealer:|Дилер:~Of course.|Конечно.~How much|Сколько~would you like|вы хотите~to change?|поменять?
+Guest:|Гость:~Two hundred,|Двести,~please.|пожалуйста.
+Dealer:|Дилер:~Here are|Вот~your chips.|ваши фишки.~Good luck!|Удачи!`],
+['💬 Разговор',`Guest:|Гость:~Good evening!|Добрый вечер!~How are you today?|Как ваши дела сегодня?
+Dealer:|Дилер:~I’m fine,|Хорошо,~thank you.|спасибо.~And you?|А у вас?
+Guest:|Гость:~Great!|Отлично!~It’s my first time|Я здесь впервые~in this city.|в этом городе.
+Dealer:|Дилер:~Welcome!|Добро пожаловать!~Are you enjoying|Вам нравится~your stay?|отдых здесь?
+Guest:|Гость:~Yes,|Да,~the weather is beautiful|погода прекрасная~and the people|и люди~are very kind.|очень добрые.
+Dealer:|Дилер:~I’m happy|Я рада~to hear that.|это слышать.~Good luck tonight!|Удачи вам сегодня!
+Guest:|Гость:~Thank you very much.|Большое спасибо.`],
+['📋 Объявление',`Welcome|Добро пожаловать~to our casino.|в наше казино.
+Please show|Пожалуйста, покажите~your ID|ваш документ~at the entrance.|на входе.
+Phones and cameras|Телефоны и камеры~are not allowed|не разрешены~at the tables.|за столами.
+Please do not touch|Пожалуйста, не трогайте~the chips|фишки~of other players.|других игроков.
+The minimum age|Минимальный возраст~is eighteen.|— восемнадцать лет.
+Drinks are served|Напитки подают~at your table.|за вашим столом.
+Please play|Пожалуйста, играйте~responsibly.|ответственно.
+Thank you|Спасибо~and good luck!|и удачи!`],
+['🌙 Вечер в казино',`It is Friday night|Сейчас вечер пятницы~and the casino|и в казино~is very busy.|очень многолюдно.
+Anna is a dealer.|Анна — дилер.~She stands|Она стоит~at the blackjack table|за столом блэкджека~and smiles|и улыбается~at the guests.|гостям.
+A man sits down|Мужчина садится~and puts three hundred|и кладёт триста~on the table.|на стол.
+“Chips, please,”|«Фишки, пожалуйста»,~he says.|говорит он.
+Anna gives him|Анна даёт ему~the chips|фишки~and says,|и говорит:~“Good luck, sir.”|«Удачи, сэр».
+He wins the first hand|Он выигрывает первую раздачу~and laughs.|и смеётся.
+At midnight|В полночь~he says thank you|он говорит спасибо~and leaves a tip.|и оставляет чаевые.`],
+['☀️ Лето',`My summer|Моё лето~was very good.|было очень хорошим.
+In July|В июле~we went|мы поехали~to the sea.|на море.
+The water|Вода~was warm|была тёплой~and the sun|и солнце~was hot.|было жарким.
+Every morning|Каждое утро~we walked|мы гуляли~on the beach.|по пляжу.
+We ate|Мы ели~fresh fish|свежую рыбу~and sweet fruit.|и сладкие фрукты.
+In the evening|Вечером~we watched|мы смотрели~the sunset.|на закат.
+I was very happy,|Я была очень счастлива,~but the summer|но лето~ended too fast.|закончилось слишком быстро.`],
+['🗓 Планы',`Next year|В следующем году~I’m going to|я собираюсь~learn English|выучить английский~very well.|очень хорошо.
+Every day|Каждый день~I will study|я буду заниматься~for one hour.|по одному часу.
+In the summer|Летом~I want to visit|я хочу посетить~a new country.|новую страну.
+Maybe|Может быть,~I will go|я поеду~with my friends.|с друзьями.
+We will see|Мы увидим~the mountains|горы~and swim|и поплаваем~in the sea.|в море.
+After that,|После этого~I will come home|я вернусь домой~and tell my family|и расскажу семье~everything.|обо всём.`],
+['🌲 Природа',`It is early morning.|Раннее утро.~The sun|Солнце~is rising|поднимается~over the hills.|над холмами.
+The air|Воздух~is fresh|свежий~and cool.|и прохладный.
+A small lake|Маленькое озеро~lies|лежит~between|между~green trees.|зелёными деревьями.
+The water|Вода~is clear|прозрачная~and calm.|и спокойная.
+Birds|Птицы~sing|поют~in the forest,|в лесу,~and a deer|а олень~drinks|пьёт~from the lake.|из озера.
+White clouds|Белые облака~move slowly|медленно плывут~across the blue sky.|по голубому небу.
+Everything|Всё~is quiet|тихо~and beautiful.|и красиво.`],
+['👭 Подруги',`Anna:|Анна:~Hi, Lena!|Привет, Лена!~I’m so happy|Я так рада~to see you.|тебя видеть.
+Lena:|Лена:~Hi, Anna!|Привет, Анна!~It’s been a long time.|Давно не виделись.~How are you?|Как ты?
+Anna:|Анна:~I’m great.|У меня всё отлично.~I have|У меня~a new job.|новая работа.
+Lena:|Лена:~Really?|Правда?~Where do you work?|Где ты работаешь?
+Anna:|Анна:~In a small hotel|В маленьком отеле~near the sea.|возле моря.~I like it.|Мне нравится.
+Lena:|Лена:~That’s wonderful!|Это замечательно!~Let’s have coffee|Давай выпьем кофе~and talk.|и поговорим.
+Anna:|Анна:~Good idea.|Хорошая идея.~I know|Я знаю~a nice café|хорошее кафе~near here.|рядом.`],
+['🐢 Черепаха и заяц',`A hare|Заяц~met|встретил~a tortoise.|черепаху.
+“You are very slow,”|«Ты очень медленная»,~said the hare.|сказал заяц.
+“Let’s have a race,”|«Давай устроим гонку»,~said the tortoise.|сказала черепаха.
+The race began.|Гонка началась.~The hare ran fast|Заяц бежал быстро~and the tortoise|а черепаха~walked slowly.|шла медленно.
+The hare was sure|Заяц был уверен,~that he would win,|что победит,~so he lay down|поэтому он лёг~and slept.|и уснул.
+The tortoise|Черепаха~did not stop.|не останавливалась.~Step by step,|Шаг за шагом~she went on.|она шла дальше.
+When the hare woke up,|Когда заяц проснулся,~the tortoise|черепаха~was at the finish.|была у финиша.
+She won the race!|Она выиграла гонку!~Slow and steady|Тише едешь —~wins the race.|дальше будешь.`],
+['🐺 Мальчик и волк',`A boy|Мальчик~watched|присматривал~the sheep|за овцами~on a hill.|на холме.
+He was bored.|Ему было скучно.~“Wolf! Wolf!”|«Волк! Волк!»~he shouted.|закричал он.
+The people ran|Люди прибежали~to help him,|ему помочь,~but there was|но там не было~no wolf.|волка.
+The boy laughed.|Мальчик засмеялся.~He did it again|Он сделал так снова~the next day.|на следующий день.
+Then,|Потом~a real wolf came.|пришёл настоящий волк.~“Help! Wolf!”|«Помогите! Волк!»~cried the boy.|закричал мальчик.
+But nobody came,|Но никто не пришёл,~because they thought|потому что думали,~it was a joke.|что это шутка.
+Lesson:|Урок:~do not lie,|не лги,~or people|иначе люди~will not believe you.|тебе не поверят.`]];
+const R=RT.map(t=>[t[0],t[1].split('\n').map(l=>l.split('~').map(c=>c.split('|')))]);
+let ri=0,rs=null;
+function rp(i){ri=i;rs=null;drawR();scrollTo(0,0)}
+function rt(a,b){rs=[a,b];drawR();say(R[ri][1][a][b][0])}
+function rv(){say(R[ri][1].map(l=>l.map(c=>c[0]).join(' ')).join(' '))}
+function rd(){bump('r',1);rp((ri+1)%R.length)}
+function drawR(){const t=R[ri],s=rs?t[1][rs[0]][rs[1]]:null;
+$('#v').innerHTML=`<div class=pills>${R.map((x,i)=>`<button class='${i==ri?'on':''}' onclick=rp(${i})>${x[0]}</button>`).join('')}</div><div class=card style='margin-bottom:12px;min-height:96px'>${s?`<div class=en style='margin:0'>${s[0]}</div><div class=ru style='margin:8px 0 0'>${s[1]}</div>`:`<p style='margin:0;opacity:.7'>Нажимайте на слова и фразы — здесь появится перевод.</p>`}</div><div class=card style='text-align:left;font:22px/2.1 Georgia,serif'>${t[1].map((l,a)=>`<p style='margin:.3em 0'>${l.map((c,b)=>`<span class='ck${rs&&rs[0]==a&&rs[1]==b?' sel':''}' onclick=rt(${a},${b})>${c[0]}</span>`).join(' ')}</p>`).join('')}</div><div class=row><button onclick=rv()>🔊 Прочитать вслух</button><button class=on onclick=rd()>✅ Прочитала</button></div>`}
+const TL=[['c','🃏','Фразы'],['e','👂','Слух'],['m','🧮','Счёт'],['p','🧩','Строим'],['g','📖','Правила'],['q','🧱','Квиз'],['w','📚','Слова'],['r','📰','Чтение']];
+function ts(){say('Good evening. Place your bets, please.')}
+function drawH(){const f=['c','e','m','q','v'].map(x=>[x,(S.st[x]||[0,0])[1]]).sort((a,b)=>a[1]-b[1])[0][0],N={c:'c',e:'e',m:'m',q:'q',v:'w'},D2={c:'Выучено '+C.filter(c=>(S.box[c.en]||0)>=3).length+' из '+C.length,e:'Верно: '+st('e'),m:'Верно: '+st('m'),p:'Конструкции',g:'Грамматика',q:'Верно: '+st('q'),w:'Выучено '+WL.filter(x=>(S.wb[x.en]||0)>=3).length+' из '+WL.length,r:'Прочитано: '+(S.st.r||[0])[0]};
+$('#v').innerHTML=`<button class=on style='width:100%;margin-bottom:12px' onclick=show('${N[f]}')>👉 Начать с раздела «${TL.find(t=>t[0]==N[f])[2]}»</button><div class=home>${TL.map(t=>`<button onclick=show('${t[0]}')><span>${t[1]}</span>${t[2]}<small>${D2[t[0]]}</small></button>`).join('')}</div><div class=row><button onclick=ts()>🔊 Проверить звук</button><button onclick=drawS()>🔄 Перенос</button></div><p><small>Нет звука на iPhone? Выключите беззвучный режим (переключатель сбоку) и сделайте громче.</small></p>`}
+const fe=o=>Object.fromEntries(Object.entries(o).filter(e=>e[1]>0));
+function mk(){return btoa(unescape(encodeURIComponent(JSON.stringify({box:fe(S.box),wb:fe(S.wb),st:S.st,day:S.day,n:S.n,last:S.last,streak:S.streak}))))}
+function sc(){const x=$('#sx');x.value=mk();x.select();try{navigator.clipboard.writeText(x.value).catch(()=>{})}catch(e){}}
+function sld(){try{const o=JSON.parse(decodeURIComponent(escape(atob($('#sx').value.trim())))),mx=(a,b)=>{for(const k in b)a[k]=Math.max(a[k]||0,b[k])};mx(S.box,o.box);mx(S.wb,o.wb);for(const k in o.st)if(o.st[k][1]>(S.st[k]||[0,0])[1])S.st[k]=o.st[k];if(o.day==S.day)S.n=Math.max(S.n,o.n);else if(o.day>S.day){S.day=o.day;S.n=o.n}if(o.last>S.last){S.last=o.last;S.streak=o.streak}save();upd();$('#sm').textContent='✔ Готово, прогресс объединён'}catch(e){$('#sm').textContent='✖ Код не подошёл'}}
+function drawS(){$('#v').innerHTML=`<div class=card style='text-align:left'><p><b>Перенос прогресса</b></p><p style='font-size:17px'>1. На одном устройстве нажмите «Показать код» и скопируйте текст (зажмите его пальцем). 2. Отправьте себе в мессенджер. 3. На другом устройстве вставьте код в поле и нажмите «Загрузить».</p><button onclick=sc()>Показать код</button><textarea id=sx rows=4 style='width:100%;margin-top:10px;font-size:16px' placeholder='Код появится здесь, или вставьте сюда код с другого устройства'></textarea><button class=main onclick=sld()>Загрузить код</button><p id=sm></p><button onclick=show('h')>← В меню</button></div>`}
+function show(t){tab=t;scrollTo(0,0);document.querySelectorAll("nav button").forEach(b=>b.classList.toggle("on",b.dataset.t==t));({c:()=>cur?drawC():next(),e:()=>E.n?drawE():qE(),m:()=>M.say?drawM():qM(),p:drawP,g:drawG,q:()=>Z.c?drawZ():zq('t'),w:()=>V.w?drawV():vn('a'),r:()=>drawR(),h:drawH})[t]()}
+upd();show("h");
+</script></body></html>
